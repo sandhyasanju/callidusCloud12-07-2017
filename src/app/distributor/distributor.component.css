@@ -1,0 +1,15 @@
+.underline {
+    border-bottom: 1px solid rgb(181, 179, 179);
+}
+
+.btnBorder {
+    border-radius: 25px;
+}
+
+.btnGroup {
+    margin-top: 15px;
+}
+
+.btnInfo {
+    background: rgb(217, 242, 250)
+}

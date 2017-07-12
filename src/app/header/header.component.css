@@ -1,0 +1,134 @@
+.navbar-brand {
+    left: 0;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    min-height: 35px;
+}
+
+.navbar-toggle {
+    z-index: 3;
+}
+
+.logo {
+    padding: 0px;
+}
+
+.logo img {
+    display: table;
+    margin: 0px auto;
+    width: 100px;
+}
+
+.topmenu {
+    border: none;
+    display: block;
+    margin-bottom: 0px;
+    min-height: 60px;
+    position: relative;
+}
+
+.topmenu:after {
+    background: -webkit-linear-gradient(left, rgb(251, 179, 38) 0%, rgb(150, 201, 61) 30%, rgb(0, 167, 225) 60%, rgb(159, 88, 162) 100%);
+    content: "";
+    display: block;
+    height: 5px;
+    position: absolute;
+    width: 100%;
+}
+
+.secondMenu {
+    border: none;
+}
+
+.header-mainmenu {
+    min-height: 35px;
+}
+
+.header-mainmenu ul {
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header-mainmenu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-width: auto;
+}
+
+.header-mainmenu a {
+    color: #444;
+    display: block;
+    font: normal 14px/35px sans-serif;
+    padding: 0 35px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.header-mainmenu .dropdown:after {
+    content: ' \25bc';
+}
+
+.header-mainmenu li:hover a {
+    background: #ccc;
+}
+
+.header-mainmenu li ul {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.header-mainmenu li:hover ul {
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+}
+
+.header-mainmenu li ul li {
+    width: 100%;
+}
+
+.header-mainmenu li ul a:hover {
+    background: #bbb;
+}
+
+.nav-pills>.active>a,
+.nav-pills>.active>a:hover,
+.nav-pills>li>a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #00a7e1;
+    color: #000 !important;
+    background-color: transparent !important;
+}
+
+.nav-pills>li>a {
+    border-radius: 0px;
+}
