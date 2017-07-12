@@ -1,8 +1,54 @@
-.footer {
+/* .footer {
     background: rgb(238, 238, 238);
     bottom: 0;
     height: 50px;
     padding-top: 15px;
     position: fixed;
     width: 100%;
+} */
+
+.footerBackground {
+    background: rgb(245, 245, 245);
+}
+.leftFooter {
+    background: white;
+}
+.rightFooter {
+    background: white;
+}
+.textPink{
+    color: rgb(189, 16, 224)
+}
+.textPink i {
+    border: 1px solid rgb(189, 16, 224);
+    border-radius:50%;
+    padding: 5px;
+}
+.leftText {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.textAnchor{
+    color: rgb(73, 143, 226)
+}
+.last{
+    margin-bottom: 10px;
+}
+.paddingLeft{
+    padding-left:10px;
+}
+.marginBottom{
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+.bgBlue {
+    baackground:rgb(3,169,227)
+}
+.bgWhite:{
+    background: white;
+}
+.circle{
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
 }
