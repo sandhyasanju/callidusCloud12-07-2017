@@ -15,29 +15,6 @@
     <app-root></app-root>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script>
-        $(document).on('click', '.btn-select', function(e) {
-            e.preventDefault();
-            var ul = $(this).find("ul");
-            if ($(this).hasClass("active")) {
-                if (ul.find("li").is(e.target)) {
-                    var target = $(e.target);
-                    target.addClass("selected").siblings().removeClass("selected");
-                    var value = target.html();
-                    $(this).find(".btn-select-input").val(value);
-                    $(this).find(".btn-select-value").html(value);
-                }
-                ul.hide();
-                $(this).removeClass("active");
-            } else {
-                $('.btn-select').not(this).each(function() {
-                    $(this).removeClass("active").find("ul").hide();
-                });
-                ul.slideDown(300);
-                $(this).addClass("active");
-            }
-        });
-    </script>
 </body>
 
 </html>

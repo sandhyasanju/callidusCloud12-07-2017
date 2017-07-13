@@ -1,8 +1,99 @@
-.footer {
+/*.footer {
     background: rgb(238, 238, 238);
     bottom: 0;
     height: 50px;
     padding-top: 15px;
     position: fixed;
     width: 100%;
+}*/
+
+.footerBackground {
+    background: rgb(245, 245, 245);
+    border-top: 1px solid rgb(180, 179, 179);
+}
+
+.footerContent {
+    margin-top: 4%;
+}
+
+.logoPng {
+    /*background: white;*/
+    margin-left: 20%;
+    margin-top: -100%;
+    width: 85%;
+}
+
+.leftFooter {
+    background: white;
+    margin-left: -2.19%;
+}
+
+.rightFooter {
+    background: white;
+}
+
+.textPink {
+    color: rgb(189, 16, 224)
+}
+
+.textPink i {
+    border: 1px solid rgb(189, 16, 224);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.fa-x {
+    color: rgb(0, 171, 227)
+}
+
+.leftText {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.textAnchor {
+    color: rgb(73, 143, 226)
+}
+
+.last {
+    margin-bottom: 10px;
+}
+
+.paddingLeft {
+    padding-left: 10px;
+}
+
+.marginBottom {
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.bgBlue {
+    background: rgb(3, 169, 227);
+    padding: 5%;
+    width: 100%;
+    margin-left: 0;
+}
+
+.bgWhite {
+    background: white;
+}
+
+.circle {
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: -25%;
+    padding: 38.2%;
+}
+
+.text-white {
+    color: white;
+}
+
+.underline {
+    border-bottom: 1px solid white;
+}
+
+.text-gold {
+    color: rgb(243, 188, 68) !important;
 }

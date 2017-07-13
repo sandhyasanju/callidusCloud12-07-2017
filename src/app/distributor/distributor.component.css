@@ -13,3 +13,88 @@
 .btnInfo {
     background: rgb(217, 242, 250)
 }
+
+.btnOutlineSecondary {
+    background: none;
+    border: 1px solid rgb(71, 195, 235);
+    color: rgb(71, 195, 235);
+}
+
+.btnBottomBorder {
+    background: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+.btnOutlineMuted {
+    background: none;
+    border: 1px solid grey;
+    font-size: 8px;
+}
+
+.leftMenuHeader {
+    margin-bottom: 20px;
+}
+
+.nav .nav-link {
+    background: none;
+}
+
+.font12 {
+    color: rgb(0, 171, 227);
+    font-size: 12px;
+}
+
+.nav .nav-link:hover,
+.nav .nav-link:active,
+.nav .nav-link:focus {
+    color: rgb(158, 158, 158);
+}
+
+.borderRadius {
+    border: 1px solid rgb(0, 168, 227);
+    border-radius: 50%;
+    margin-bottom: 10%;
+    padding: 16.5%;
+}
+
+.borderRadius1 {
+    border: 1px solid rgb(0, 168, 227);
+    border-radius: 50%;
+    margin: -106% 6%;
+    padding: 32%;
+}
+
+.borderRadius2 {
+    border: 1px solid rgb(0, 168, 227);
+    border-radius: 50%;
+    /*margin: 8% 17%;*/
+    padding: 55%;
+}
+
+.font {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.circleBelowText {
+    color: rgb(73, 143, 226);
+    font-size: 9px;
+    margin-bottom: 5%;
+}
+
+.belowText {
+    font-size: 8px;
+    margin-bottom: 60%;
+}
+
+.centerText {
+    color: rgb(73, 143, 226);
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+centerBelowText {
+    margin-bottom: 5%;
+}
